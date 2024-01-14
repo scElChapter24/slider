@@ -19,7 +19,7 @@ body {
 
 .slider{
     width: 1300px;
-    height: 700px;
+    height: 100vh;
     background-color: none;
     margin: auto;
     position: cover;
@@ -158,5 +158,6 @@ section {
 @media screen and (max-width: 768px){
     .slider{
         height: 400px;
+        width: 100%;
     }
 }
